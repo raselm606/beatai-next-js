@@ -72,7 +72,7 @@ const Pricing = () => {
                               <ul className="list-unstyled text-start"  data-aos="fade-up"> 
                                 <li  data-aos="fade-up" > Try all our features for a limited period </li> 
                                 <li>AI Models: &nbsp; 
-                                  <Image src="http://www.google.com/s2/favicons?domain=https://chatgpt.com/" 
+                                  <Image src="https://www.google.com/s2/favicons?domain=https://chatgpt.com/" 
                                   alt="OpenAI GPT-4.1" width={16} height={16}
                                   data-bs-toggle="tooltip" 
                                   data-bs-placement="top"
@@ -81,14 +81,14 @@ const Pricing = () => {
                                       cursor: "pointer",
                                       filter: "invert(1)",
                                     }} /> &nbsp;
-                                  <Image src="http://www.google.com/s2/favicons?domain=https://gemini.google.com/" alt="Gemini 2.5 Flash"
+                                  <Image src="https://www.google.com/s2/favicons?domain=https://gemini.google.com/" alt="Gemini 2.5 Flash"
                                   data-bs-toggle="tooltip" width={16} height={16} 
                                   data-bs-placement="top"
                                   title="Gemini 2.5 Flash" 
                                   style={{
                                       cursor: "pointer", 
                                     }}/> &nbsp;
-                                  <Image src="http://www.google.com/s2/favicons?domain=https://www.deepseek.com/" alt="DeepSeek R1" 
+                                  <Image src="https://www.google.com/s2/favicons?domain=https://www.deepseek.com/" alt="DeepSeek R1" 
                                   data-bs-toggle="tooltip"  width={16} height={16} 
                                   data-bs-placement="top"
                                   title="DeepSeek R1"
@@ -134,7 +134,7 @@ const Pricing = () => {
                                 
                                 <li data-aos="fade-up">AI Workflows</li>
                                 <li>AI Models: &nbsp; 
-                                  <Image src="http://www.google.com/s2/favicons?domain=https://chatgpt.com/" alt="OpenAI GPT-4.1" 
+                                  <Image src="https://www.google.com/s2/favicons?domain=https://chatgpt.com/" alt="OpenAI GPT-4.1" 
                                   width={16} height={16}
                                   data-bs-toggle="tooltip" 
                                   data-bs-placement="top"
@@ -143,14 +143,14 @@ const Pricing = () => {
                                       cursor: "pointer",
                                       filter: "invert(1)",
                                     }} /> &nbsp;
-                                  <Image src="http://www.google.com/s2/favicons?domain=https://gemini.google.com/" alt="Gemini 2.5 Flash"
+                                  <Image src="https://www.google.com/s2/favicons?domain=https://gemini.google.com/" alt="Gemini 2.5 Flash"
                                   data-bs-toggle="tooltip"  width={16} height={16} 
                                   data-bs-placement="top"
                                   title="Gemini 2.5 Flash" 
                                   style={{
                                       cursor: "pointer", 
                                     }}/> &nbsp;
-                                  <Image src="http://www.google.com/s2/favicons?domain=https://www.deepseek.com/" width={16} height={16} alt="DeepSeek R1" 
+                                  <Image src="https://www.google.com/s2/favicons?domain=https://www.deepseek.com/" width={16} height={16} alt="DeepSeek R1" 
                                   data-bs-toggle="tooltip" 
                                   data-bs-placement="top"
                                   title="DeepSeek R1"
@@ -188,7 +188,7 @@ const Pricing = () => {
                                 
                                 <li data-aos="fade-up">AI Workflows</li>
                                <li>AI Models: &nbsp; 
-                                  <Image src="http://www.google.com/s2/favicons?domain=https://chatgpt.com/" alt="OpenAI GPT-4.1" width={16}  height={16}
+                                  <Image src="https://www.google.com/s2/favicons?domain=https://chatgpt.com/" alt="OpenAI GPT-4.1" width={16}  height={16}
                                   data-bs-toggle="tooltip" 
                                   data-bs-placement="top"
                                   title="OpenAI GPT-4.1" 
@@ -196,28 +196,28 @@ const Pricing = () => {
                                       cursor: "pointer",
                                       filter: "invert(1)",
                                     }} /> &nbsp;
-                                  <Image src="http://www.google.com/s2/favicons?domain=https://gemini.google.com/" alt="Gemini 2.5 Flash"
+                                  <Image src="https://www.google.com/s2/favicons?domain=https://gemini.google.com/" alt="Gemini 2.5 Flash"
                                   data-bs-toggle="tooltip" width={16} height={16} 
                                   data-bs-placement="top"
                                   title="Gemini 2.5 Flash" 
                                   style={{
                                       cursor: "pointer", 
                                     }}/> &nbsp;
-                                  <Image src="http://www.google.com/s2/favicons?domain=https://www.deepseek.com/" alt="DeepSeek R1" 
+                                  <Image src="https://www.google.com/s2/favicons?domain=https://www.deepseek.com/" alt="DeepSeek R1" 
                                   data-bs-toggle="tooltip"  width={16} height={16} 
                                   data-bs-placement="top"
                                   title="DeepSeek R1"
                                   style={{
                                       cursor: "pointer", 
                                     }}/> &nbsp;
-                                  <Image src="http://www.google.com/s2/favicons?domain=https://claude.ai/" alt="Claude 4.5 Sonnet" 
+                                  <Image src="https://www.google.com/s2/favicons?domain=https://claude.ai/" alt="Claude 4.5 Sonnet" 
                                   data-bs-toggle="tooltip" width={16} height={16} 
                                   data-bs-placement="top"
                                   title="Claude 4.5 Sonnet"
                                   style={{
                                       cursor: "pointer", 
                                     }}/>&nbsp;&nbsp;
-                                  <Image src="http://www.google.com/s2/favicons?domain=https://grok.com/" alt="xAI Grok" 
+                                  <Image src="https://www.google.com/s2/favicons?domain=https://grok.com/" alt="xAI Grok" 
                                   data-bs-toggle="tooltip"  width={16} height={16} 
                                   data-bs-placement="top"
                                   title="xAI Grok"
@@ -225,7 +225,7 @@ const Pricing = () => {
                                       cursor: "pointer",
                                       filter: "invert(1)", 
                                     }}/>&nbsp;&nbsp;
-                                  <Image src="http://www.google.com/s2/favicons?domain=https://qwenlm.github.io/" 
+                                  <Image src="https://www.google.com/s2/favicons?domain=https://qwenlm.github.io/" 
                                   data-bs-toggle="tooltip" width={16} height={16} 
                                   data-bs-placement="top"
                                   title="Qwen VL Max"
@@ -267,7 +267,7 @@ const Pricing = () => {
                               <ul className="list-unstyled text-start"  data-aos="fade-up"> 
                                 <li  data-aos="fade-up" > Try all our features for a limited period </li> 
                                 <li>AI Models: &nbsp; 
-                                  <Image src="http://www.google.com/s2/favicons?domain=https://chatgpt.com/" alt="OpenAI GPT-4.1" width={16} height={16}
+                                  <Image src="https://www.google.com/s2/favicons?domain=https://chatgpt.com/" alt="OpenAI GPT-4.1" width={16} height={16}
                                   data-bs-toggle="tooltip" 
                                   data-bs-placement="top"
                                   title="OpenAI GPT-4.1" 
@@ -275,14 +275,14 @@ const Pricing = () => {
                                       cursor: "pointer",
                                       filter: "invert(1)",
                                     }} /> &nbsp;
-                                  <Image src="http://www.google.com/s2/favicons?domain=https://gemini.google.com/" alt="Gemini 2.5 Flash"
+                                  <Image src="https://www.google.com/s2/favicons?domain=https://gemini.google.com/" alt="Gemini 2.5 Flash"
                                   data-bs-toggle="tooltip" width={16} height={16} 
                                   data-bs-placement="top"
                                   title="Gemini 2.5 Flash" 
                                   style={{
                                       cursor: "pointer", 
                                     }}/> &nbsp;
-                                  <Image src="http://www.google.com/s2/favicons?domain=https://www.deepseek.com/" alt="DeepSeek R1" 
+                                  <Image src="https://www.google.com/s2/favicons?domain=https://www.deepseek.com/" alt="DeepSeek R1" 
                                   data-bs-toggle="tooltip" width={16} height={16} 
                                   data-bs-placement="top"
                                   title="DeepSeek R1"
@@ -318,7 +318,7 @@ const Pricing = () => {
 
                                 <li data-aos="fade-up">AI Workflows</li>
                                 <li>AI Models: &nbsp; 
-                                  <Image src="http://www.google.com/s2/favicons?domain=https://chatgpt.com/" alt="OpenAI GPT-4.1" width={16}  height={16}
+                                  <Image src="https://www.google.com/s2/favicons?domain=https://chatgpt.com/" alt="OpenAI GPT-4.1" width={16}  height={16}
                                   data-bs-toggle="tooltip" 
                                   data-bs-placement="top"
                                   title="OpenAI GPT-4.1" 
@@ -326,14 +326,14 @@ const Pricing = () => {
                                       cursor: "pointer",
                                       filter: "invert(1)",
                                     }} /> &nbsp;
-                                  <Image src="http://www.google.com/s2/favicons?domain=https://gemini.google.com/" alt="Gemini 2.5 Flash"
+                                  <Image src="https://www.google.com/s2/favicons?domain=https://gemini.google.com/" alt="Gemini 2.5 Flash"
                                   data-bs-toggle="tooltip" width={16} height={16} 
                                   data-bs-placement="top"
                                   title="Gemini 2.5 Flash" 
                                   style={{
                                       cursor: "pointer", 
                                     }}/> &nbsp;
-                                  <Image src="http://www.google.com/s2/favicons?domain=https://www.deepseek.com/" alt="DeepSeek R1" 
+                                  <Image src="https://www.google.com/s2/favicons?domain=https://www.deepseek.com/" alt="DeepSeek R1" 
                                   data-bs-toggle="tooltip"  width={16} height={16} 
                                   data-bs-placement="top"
                                   title="DeepSeek R1"
@@ -371,7 +371,7 @@ const Pricing = () => {
 
                                 <li data-aos="fade-up">AI Workflows</li>
                                 <li>AI Models: &nbsp; 
-                                  <Image src="http://www.google.com/s2/favicons?domain=https://chatgpt.com/" alt="OpenAI GPT-4.1" width={16}  height={16}
+                                  <Image src="https://www.google.com/s2/favicons?domain=https://chatgpt.com/" alt="OpenAI GPT-4.1" width={16}  height={16}
                                   data-bs-toggle="tooltip" 
                                   data-bs-placement="top"
                                   title="OpenAI GPT-4.1" 
@@ -379,28 +379,28 @@ const Pricing = () => {
                                       cursor: "pointer",
                                       filter: "invert(1)",
                                     }} /> &nbsp;
-                                  <Image src="http://www.google.com/s2/favicons?domain=https://gemini.google.com/" alt="Gemini 2.5 Flash"
+                                  <Image src="https://www.google.com/s2/favicons?domain=https://gemini.google.com/" alt="Gemini 2.5 Flash"
                                   data-bs-toggle="tooltip" width={16} height={16} 
                                   data-bs-placement="top"
                                   title="Gemini 2.5 Flash" 
                                   style={{
                                       cursor: "pointer", 
                                     }}/> &nbsp;
-                                  <Image src="http://www.google.com/s2/favicons?domain=https://www.deepseek.com/" alt="DeepSeek R1" 
+                                  <Image src="https://www.google.com/s2/favicons?domain=https://www.deepseek.com/" alt="DeepSeek R1" 
                                   data-bs-toggle="tooltip" width={16} height={16} 
                                   data-bs-placement="top"
                                   title="DeepSeek R1"
                                   style={{
                                       cursor: "pointer", 
                                     }}/> &nbsp;
-                                  <Image src="http://www.google.com/s2/favicons?domain=https://claude.ai/" alt="Claude 4.5 Sonnet" 
+                                  <Image src="https://www.google.com/s2/favicons?domain=https://claude.ai/" alt="Claude 4.5 Sonnet" 
                                   data-bs-toggle="tooltip" width={16} height={16} 
                                   data-bs-placement="top"
                                   title="Claude 4.5 Sonnet"
                                   style={{
                                       cursor: "pointer", 
                                     }}/>&nbsp;&nbsp;
-                                  <Image src="http://www.google.com/s2/favicons?domain=https://grok.com/" alt="xAI Grok" 
+                                  <Image src="https://www.google.com/s2/favicons?domain=https://grok.com/" alt="xAI Grok" 
                                   data-bs-toggle="tooltip" 
                                   data-bs-placement="top" width={16} height={16}
                                   title="xAI Grok"
@@ -408,7 +408,7 @@ const Pricing = () => {
                                       cursor: "pointer",
                                       filter: "invert(1)", 
                                     }}/>&nbsp;&nbsp;
-                                  <Image src="http://www.google.com/s2/favicons?domain=https://qwenlm.github.io/" 
+                                  <Image src="https://www.google.com/s2/favicons?domain=https://qwenlm.github.io/" 
                                   data-bs-toggle="tooltip"  width={16} height={16} 
                                   data-bs-placement="top"
                                   title="Qwen VL Max"
