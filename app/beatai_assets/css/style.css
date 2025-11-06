@@ -414,7 +414,7 @@ img {
     background: url('../images/pricing_bg.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:  left top;
+    background-position:  center  center;
 }
 .pricing-card {   
     color: #fff;
@@ -730,7 +730,7 @@ background: -o-linear-gradient(127.11deg, #A75BE2 -1.05%, #0194FE 184.22%);
     color: rgb(185 73 190) !important;
 }
 .text_blue {
-    color: #47B5F5 !important;
+    color: #47b5f5 !important;
 }
 .text_platinum {
     color: #ddd !important;
@@ -761,4 +761,10 @@ background: -o-linear-gradient(127.11deg, #A75BE2 -1.05%, #0194FE 184.22%);
     text-align: center;
     display: flex;
     justify-content: center;
+}
+.get_free {
+    position: absolute;
+    bottom: 87px;
+    left: 35%;
+    font-size: 14px;
 }

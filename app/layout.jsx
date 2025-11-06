@@ -1,4 +1,4 @@
-
+ 
 import { Poppins } from "next/font/google";
 //import Script from 'next/script';
 import BootstrapProvider from "./bootstrap-provider";
@@ -21,12 +21,55 @@ const poppins = Poppins({
   variable: "--font-poppins",
 });
 
- 
-
-export const metadata = {
-  title: "BeatAI Landing Nextjs Project",
-  description: "BeatAI Landing NextJs Project",
+ export const metadata = {
+  // base URL দিন—OG/canonical resolve হবে
+  metadataBase: new URL("https://beatai-next-js.vercel.app"),
+  title: {
+    default: "BeatAI — Multi-AI Platform for Music & Events",
+    template: "%s | BeatAI",
+  },
+  description:
+    "BeatAI combines multi-AI chat, image generation, workflows and music tools to power events & creativity.",
+  keywords: [
+    "BeatAI",
+    "AI Chat",
+    "Image Generation",
+    "Workflows",
+    "Music AI",
+    "Next.js",
+  ],
+  
+  openGraph: {
+    title: "BeatAI — Multi-AI Platform for Music & Events",
+    description:
+      "Chat with multiple AI engines, generate images, plan events, and more — all in BeatAI.",
+    url: "https://beatai-next-js.vercel.app/",
+    siteName: "BeatAI",
+    images: ["/favicon.ico"],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "BeatAI — Multi-AI Platform",
+    description:
+      "One unified platform for AI chat, images, workflows, beats & more.",
+    images: ["/favicon.ico"],
+    creator: "@beatbind",
+  },
+  alternates: {
+    canonical: "https://beatai-next-js.vercel.app/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/favicon.ico",
+    shortcut: "/favicon.ico",
+  },
 };
+ 
 
 export default function RootLayout({ children }) {
   return (

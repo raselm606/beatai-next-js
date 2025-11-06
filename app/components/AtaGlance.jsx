@@ -27,7 +27,7 @@ const AtaGlance = () => {
             </div>
             <div className="col-lg-6 mb-3">
               <div className="section_title">
-                <span data-aos="fade-up">At a galance</span>
+                <span data-aos="fade-up">At a glance</span>
                 <h2 data-aos="fade-up">Instant Visual Magic at a Glance!</h2>
                 <p data-aos="fade-up">AI isn’t here to replace human creativity—It’s here to enhance it and help you reach new heights.</p>
                 <p data-aos="fade-up">Whether you’re crafting fanart of your favorite anime or exploring new artistic frontiers, AI can be your creative partner, empowering you to bring your imagination to life like never before.</p>

@@ -54,15 +54,13 @@ const Pricing = () => {
 
                     <div className="tab-content" id="pills-tabContent">
                       <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                        <p className="text-center text_blue">Get 1 Month Free!</p>
+                        
                         <div className="row">
                         
-                          
                           <div className="col-lg-4 mb-3">
                             <div className="card  pricing-card beatai_pricing_card p-4">
                               <h5 className="plan-name">
                                 Free Trial 
-                                
                                 </h5>
                               <h2 className="price"  data-aos="fade-up">
                                 Price: $0.00  
@@ -115,6 +113,8 @@ const Pricing = () => {
                           
                           <div className="col-lg-4 mb-3">
                             <div className="card popuplar  pricing-card beatai_pricing_card p-4">
+
+                              <p className="text-center text_blue get_free">Get 1 Month Free!</p>
                               
                                 <Image className="ribbon" src={ribbon} alt="offer" />
                               
@@ -171,7 +171,7 @@ const Pricing = () => {
                           
                           <div className="col-lg-4 mb-3">
                             <div className="card  pricing-card beatai_pricing_card p-4">
-                              
+                              <p className="text-center text_blue get_free">Get 1 Month Free!</p>
                               <h5 className="plan-name text_platinum">
                                 Platinum Plan
                                 

@@ -1,3 +1,4 @@
+import aws from '@/app/beatai_assets/images/powered/aws.svg';
 import beatbind from '@/app/beatai_assets/images/powered/beatbind.svg';
 import claude from '@/app/beatai_assets/images/powered/claude.svg';
 import deepseek from '@/app/beatai_assets/images/powered/deepseek.svg';
@@ -78,6 +79,11 @@ const PoweredLogo = () => {
             <div className="col-12 col-sm mb-3">
               <div className="img_powered">
                 <Image src={stripe} alt="" />
+              </div>
+            </div>
+            <div className="col-12 col-sm mb-3">
+              <div className="img_powered">
+                <Image src={aws} alt="" />
               </div>
             </div>
 
