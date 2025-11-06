@@ -171,13 +171,13 @@ const Pricing = () => {
                           
                           <div className="col-lg-4 mb-3">
                             <div className="card  pricing-card beatai_pricing_card p-4">
-                              <p className="text-center text_blue get_free">Get 1 Month Free!</p>
-                              <h5 className="plan-name text_platinum">
+                              <p className="text-center text_blue get_free"> Get 1 Month Free!</p>
+                              <h5 className="plan-name text_platinum"> 
                                 Platinum Plan
                                 
                                 </h5>
                               <h2 className="price"  data-aos="fade-up">
-                               <small className="fs-6 text_pink mx-2"><s> $479.88 </s> </small> $439.89
+                               <small className="fs-6 text_pink mx-2"><s> $479.88  </s> </small> $439.89
                                 <span className="fs-6">/Year</span> 
                               </h2>
                               <p>(Total Credits: 48000)</p>
