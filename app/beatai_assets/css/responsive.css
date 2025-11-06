@@ -46,7 +46,10 @@
         line-height: 35px;
     }
     
-     
+    .section_title h2 { 
+        font-size: 32px !important; 
+        line-height: 44px !important;
+    }
     /* .navbar_area {
         -webkit-backdrop-filter: blur(6px);
         backdrop-filter: blur(6px);
@@ -108,7 +111,6 @@
         line-height: 44px;
     }
     
-    
     /* .navbar_area {
         -webkit-backdrop-filter: blur(6px);
         backdrop-filter: blur(6px);
@@ -167,7 +169,6 @@
         font-size: 32px; 
         line-height: 44px;
     }
-     
     
     /* .navbar_area {
         -webkit-backdrop-filter: blur(6px);
