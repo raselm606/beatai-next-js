@@ -5,6 +5,12 @@
 
 /* Medium / Tablet */
 @media only screen and (max-width: 768px) {
+    .coming_soon:before { 
+        bottom: 75px !important;  
+    }
+    .coming_soon:after { 
+        bottom: 80px !important; 
+    }
     .navbar_area {
         background: rgb(40 7 98 / 84%);
     }

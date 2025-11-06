@@ -31,6 +31,7 @@ const KeyFeatures = () => {
                     <li  data-aos="fade-up" data-aos-delay="1000"><Image src={ficon} alt="icon" /> Diverse Capabilities</li>
                     <li  data-aos="fade-up" data-aos-delay="1100"><Image src={ficon} alt="icon" /> Unified Interface</li>
                     <li  data-aos="fade-up" data-aos-delay="1200"><Image src={ficon} alt="icon" /> Enhanced Productivity</li>
+                    <li className="coming_soon"  data-aos="fade-up" data-aos-delay="1200"><Image src={ficon} alt="icon" /> Lex Travel: Craft your itinerary in one click</li>
                   </ul>
                 </div>
               </div>
@@ -57,9 +58,11 @@ const KeyFeatures = () => {
                   <ul>
                     <li  data-aos="fade-up" data-aos-delay="1100"><Image src={list_icon} alt="icon" /> Event Budget Planner</li>
                     <li data-aos="fade-up" data-aos-delay="1200"><Image src={list_icon} alt="icon" /> Event Logistics & Staff Planning</li>
-                    <li  data-aos="fade-up" data-aos-delay="1250"><Image src={list_icon} alt="icon" /> Contract Analyzer</li>
-                    <li  data-aos="fade-up" data-aos-delay="1250"><Image src={list_icon} alt="icon" /> Contract Maker</li>
+                    <li  data-aos="fade-up" data-aos-delay="1250"><Image src={list_icon} alt="icon" /> Contract Auditor</li>
+                    <li  data-aos="fade-up" data-aos-delay="1250"><Image src={list_icon} alt="icon" /> Contract Crafter</li>
                     <li  data-aos="fade-up" data-aos-delay="12750"><Image src={list_icon} alt="icon" /> World Tour Event Planner</li>
+                    <li  data-aos="fade-up" data-aos-delay="12750"><Image src={list_icon} alt="icon" />Maintenance Forecaster</li>
+                    <li  data-aos="fade-up" data-aos-delay="12750"><Image src={list_icon} alt="icon" />Competitor and Market Analysis</li>
                   </ul>
                 </div>
               </div>
