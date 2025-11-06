@@ -1,8 +1,7 @@
 'use client';
 import ribbon from '@/app/beatai_assets/images/ribbon5.svg';
-//import 'bootstrap/dist/css/bootstrap.min.css';
-//import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Image from 'next/image';
+import Link from "next/link";
 import { useEffect } from "react";
 const Pricing = () => {
 
@@ -102,9 +101,14 @@ const Pricing = () => {
                               
                               </ul>
                              
-                              <button className="btn btn-primary w-100 mt-3 sticky-bottom">
+                              <Link 
+                              href="#" 
+                              data-action="upgrade_pro_yearly" 
+                              data-track="button_click" 
+                              className="btn btn-primary w-100 mt-3 sticky-bottom"
+                              >
                                  Try It Free for 7 Days!
-                              </button>
+                              </Link>
 
                               <small className="dssds">or until your credits run out—whichever comes first!</small>
                               
@@ -166,6 +170,14 @@ const Pricing = () => {
                                 <li data-aos="fade-up">Professional Music Tools (Beats)</li>
                               </ul>
                               <button className="btn btn-primary w-100 mt-3 sticky-bottom">Subscribe</button>
+                              <Link 
+                              href="#" 
+                              data-action="upgrade_pro_yearly" 
+                              data-track="button_click" 
+                              className="btn btn-primary w-100 mt-3 sticky-bottom"
+                              >
+                                 Subscribe
+                              </Link>
                             </div>
                           </div>
                           
@@ -242,7 +254,14 @@ const Pricing = () => {
                                 <li data-aos="fade-up">Image & PDF Chat: Yes</li>
                                 <li data-aos="fade-up">Professional Music Tools (Beats)</li>
                               </ul>
-                              <button className="btn btn-primary w-100 mt-3 sticky-bottom">Subscribe</button>
+                              <Link 
+                              href="#" 
+                              data-action="upgrade_platinum_yearly" 
+                              data-track="button_click" 
+                              className="btn btn-primary w-100 mt-3 sticky-bottom"
+                              >
+                                 Subscribe
+                              </Link>
                             </div>
                           </div>
 
@@ -295,7 +314,16 @@ const Pricing = () => {
                                 <li data-aos="fade-up">Experience the full potential</li>
                                 <li data-aos="fade-up">No Commitment required</li>
                               </ul>
-                              <button className="btn btn-primary w-100 mt-3 sticky-bottom">Start 7 - Day Pro Trial</button>
+                               
+
+                              <Link 
+                              href="#" 
+                              data-action="upgrade_pro_monthly" 
+                              data-track="button_click" 
+                              className="btn btn-primary w-100 mt-3 sticky-bottom"
+                              >
+                                 Start 7 - Day Pro Trial
+                              </Link>
                             </div>
                           </div>
                           
@@ -348,7 +376,16 @@ const Pricing = () => {
                                 <li data-aos="fade-up">Image & PDF Chat: Yes</li>
                                 <li data-aos="fade-up">Professional Music Tools (Beats)</li>
                               </ul>
-                              <button className="btn btn-primary w-100 mt-3 sticky-bottom">Subscribe</button>
+                               
+
+                              <Link 
+                              href="#" 
+                              data-action="upgrade_pro_monthly" 
+                              data-track="button_click" 
+                              className="btn btn-primary w-100 mt-3 sticky-bottom"
+                              >
+                                 Subscribe
+                              </Link>
                             </div>
                           </div>
                           
@@ -425,7 +462,14 @@ const Pricing = () => {
                                 <li data-aos="fade-up">Image & PDF Chat: Yes</li>
                                 <li data-aos="fade-up">Professional Music Tools (Beats)</li>
                               </ul>
-                              <button className="btn btn-primary w-100 mt-3 sticky-bottom">Subscribe</button>
+                              <Link 
+                              href="#" 
+                              data-action="upgrade_platinum_monthly" 
+                              data-track="button_click" 
+                              className="btn btn-primary w-100 mt-3 sticky-bottom"
+                              >
+                                 Subscribe
+                              </Link>
                             </div>
                           </div>
 

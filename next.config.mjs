@@ -5,6 +5,9 @@ const nextConfig = {
   reactCompiler: true,
   images: {
     domains: [
+      'beatai.io', 
+      'beatbind.io', 
+      'beatbuy.io', 
       'openai.com', 
       'gemini.google.com', 
       'www.google.com', 

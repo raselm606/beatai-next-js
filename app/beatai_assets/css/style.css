@@ -478,6 +478,7 @@ img {
     position: absolute;
     bottom: 45px;
     left: 24%;
+    line-height: 35px;
 }
 .btn-primary:hover{
     background: webkit-linear-gradient(288.26deg, #703CF4 7.59%, #C86DD7 71.64%)!important;

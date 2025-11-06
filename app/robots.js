@@ -9,7 +9,7 @@ export default function robots() {
       },
     ],
     sitemap: isProd
-      ? "https://beatai-next-js.vercel.app/sitemap.xml"
+      ? "https://beatai.io/sitemap.xml"
       : null,
   };
 }
