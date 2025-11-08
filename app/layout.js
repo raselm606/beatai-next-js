@@ -68,9 +68,9 @@ const poppins = Poppins({
     follow: true,
   },
   icons: {
-    icon: "/beatai_assets/images/logo.png",
-    apple: "/beatai_assets/images/logo.png",
-    shortcut: "/beatai_assets/images/logo.png",
+    icon: "/favicon.ico",
+    apple: "/favicon.ico",
+    shortcut: "/favicon.ico",
   },
 };
  

@@ -4,11 +4,11 @@ import Link from 'next/link';
 import Slider from "react-slick";
 import slide1 from '../../public/beatai_assets/images/banner1.jpg';
 import slide2 from '../../public/beatai_assets/images/banner2.jpg';
-import slide3_3 from '../../public/beatai_assets/images/banner3.3.svg';
+import slide3_3 from '../../public/beatai_assets/images/banner3.3.jpg';
 import slide3 from '../../public/beatai_assets/images/banner3.jpg';
 import slide4 from '../../public/beatai_assets/images/banner4.jpg';
-import slide5 from '../../public/beatai_assets/images/banner5.svg';
-import slide6 from '../../public/beatai_assets/images/banner6.svg';
+import slide5 from '../../public/beatai_assets/images/banner5.jpg';
+import slide6 from '../../public/beatai_assets/images/banner6.jpg';
 import support_icon from '../../public/beatai_assets/images/support-arrow.svg';
 import PoweredLogo from './PoweredLogo';
 const Hero = () => {
