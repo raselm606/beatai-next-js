@@ -1,17 +1,17 @@
-import aws from '@/app/beatai_assets/images/powered/aws.svg';
-import beatbind from '@/app/beatai_assets/images/powered/beatbind.svg';
-import claude from '@/app/beatai_assets/images/powered/claude.svg';
-import deepseek from '@/app/beatai_assets/images/powered/deepseek.svg';
-import gemini from '@/app/beatai_assets/images/powered/gemini.svg';
-import gmap from '@/app/beatai_assets/images/powered/google-map.svg';
-import grok from '@/app/beatai_assets/images/powered/grok.svg';
-import openai from '@/app/beatai_assets/images/powered/openai.svg';
-import perplex from '@/app/beatai_assets/images/powered/perplexity.svg';
-import qwen from '@/app/beatai_assets/images/powered/qwen.svg';
-import stripe from '@/app/beatai_assets/images/powered/stripe.svg';
-import ticketmaster from '@/app/beatai_assets/images/powered/ticketmaster.svg';
 import Image from 'next/image';
 import Marquee from "react-fast-marquee";
+import aws from '../../public/beatai_assets/images/powered/aws.svg';
+import beatbind from '../../public/beatai_assets/images/powered/beatbind.svg';
+import claude from '../../public/beatai_assets/images/powered/claude.svg';
+import deepseek from '../../public/beatai_assets/images/powered/deepseek.svg';
+import gemini from '../../public/beatai_assets/images/powered/gemini.svg';
+import gmap from '../../public/beatai_assets/images/powered/google-map.svg';
+import grok from '../../public/beatai_assets/images/powered/grok.svg';
+import openai from '../../public/beatai_assets/images/powered/openai.svg';
+import perplex from '../../public/beatai_assets/images/powered/perplexity.svg';
+import qwen from '../../public/beatai_assets/images/powered/qwen.svg';
+import stripe from '../../public/beatai_assets/images/powered/stripe.svg';
+import ticketmaster from '../../public/beatai_assets/images/powered/ticketmaster.svg';
 const PoweredLogo = () => {
   return (
     <>

@@ -1,12 +1,12 @@
-import beatbind_form from '@/app/beatai_assets/images/glance/social/beatbind_form.svg'
-import facebook from '@/app/beatai_assets/images/glance/social/facebook.svg'
-import instagram from '@/app/beatai_assets/images/glance/social/instagram.svg'
-import linkedin from '@/app/beatai_assets/images/glance/social/linkedin.svg'
-import medium from '@/app/beatai_assets/images/glance/social/medium.svg'
-import telegram from '@/app/beatai_assets/images/glance/social/telegram.svg'
-import twitter from '@/app/beatai_assets/images/glance/social/twitter.svg'
 import Image from 'next/image'
 import Link from 'next/link'
+import beatbind_form from '../../public/beatai_assets/images/glance/social/beatbind_form.svg'
+import facebook from '../../public/beatai_assets/images/glance/social/facebook.svg'
+import instagram from '../../public/beatai_assets/images/glance/social/instagram.svg'
+import linkedin from '../../public/beatai_assets/images/glance/social/linkedin.svg'
+import medium from '../../public/beatai_assets/images/glance/social/medium.svg'
+import telegram from '../../public/beatai_assets/images/glance/social/telegram.svg'
+import twitter from '../../public/beatai_assets/images/glance/social/twitter.svg'
 const Footer = () => {
   return (
     <>

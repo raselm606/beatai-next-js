@@ -1,8 +1,8 @@
 'use client'; 
-import Logo from '@/app/beatai_assets/images/logo.svg';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from "react";
+import Logo from '../../public/beatai_assets/images/logo.svg';
 const Navbar = () => {
   const [navBg, setNavBg] = useState(false);
   useEffect(() => {
@@ -25,7 +25,7 @@ const Navbar = () => {
               <div className="col-lg-12">
                 <nav className="navbar navbar-expand-lg ">
             <div className="container-fluid">
-              <Link className="navbar-brand" href="/">
+              <Link className="navbar-brand" href="https://beatai.io/">
               <Image src={Logo} alt="BeatAI" width={160} height={45} />
 
               </Link>
@@ -35,7 +35,7 @@ const Navbar = () => {
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav main_nav mx-auto mb-2 mb-lg-0">
                   <li className="nav-item">
-                    <Link className="nav-link " aria-current="page" href="#">Lex</Link>
+                    <Link className="nav-link " aria-current="page" href="https://beatai.io/">Lex</Link>
                   </li>
                   <li className="nav-item">
                     <Link     className="nav-link " href="#about">About Us</Link>
@@ -54,7 +54,7 @@ const Navbar = () => {
                   </li>
                 </ul>
                 <div className="button_right">
-                  <Link href="#" >Sign Up</Link>
+                  <Link href="https://beatai.io/signup" >Sign Up</Link>
                 </div>
               </div>
             </div>

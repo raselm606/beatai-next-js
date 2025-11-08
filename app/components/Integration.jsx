@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import allImage from '../beatai_assets/images/integration.svg';
+import allImage from '../../public/beatai_assets/images/integration.svg';
 const Integration = () => {
   return (
     <>

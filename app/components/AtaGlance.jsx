@@ -1,19 +1,18 @@
-import glance_one from '@/app/beatai_assets/images/glance/at-a-glance-icon-1.svg';
-import glance_two from '@/app/beatai_assets/images/glance/at-a-glance-icon-2.svg';
-import glance_big_img from '@/app/beatai_assets/images/glance/at-a-glance2.png';
-import slide4 from '@/app/beatai_assets/images/glance/slide10.png';
-import slide6 from '@/app/beatai_assets/images/glance/slide11.png';
-import slide12 from '@/app/beatai_assets/images/glance/slide12.png';
-import slide13 from '@/app/beatai_assets/images/glance/slide13.png';
-import slide14 from '@/app/beatai_assets/images/glance/slide14.png';
-import slide15 from '@/app/beatai_assets/images/glance/slide15.png';
-import slide16 from '@/app/beatai_assets/images/glance/slide16.png';
-import slide5 from '@/app/beatai_assets/images/glance/slide5.svg';
-import slide1 from '@/app/beatai_assets/images/glance/slide7.png';
-import slide2 from '@/app/beatai_assets/images/glance/slide8.png';
-import slide3 from '@/app/beatai_assets/images/glance/slide9.png';
 import Image from 'next/image';
 import Marquee from "react-fast-marquee";
+import glance_one from '../../public/beatai_assets/images/glance/at-a-glance-icon-1.svg';
+import glance_two from '../../public/beatai_assets/images/glance/at-a-glance-icon-2.svg';
+import glance_big_img from '../../public/beatai_assets/images/glance/at-a-glance2.png';
+import slide4 from '../../public/beatai_assets/images/glance/slide10.png';
+import slide6 from '../../public/beatai_assets/images/glance/slide11.png';
+import slide12 from '../../public/beatai_assets/images/glance/slide12.png';
+import slide13 from '../../public/beatai_assets/images/glance/slide13.png';
+import slide14 from '../../public/beatai_assets/images/glance/slide14.png';
+import slide15 from '../../public/beatai_assets/images/glance/slide15.png';
+import slide5 from '../../public/beatai_assets/images/glance/slide5.svg';
+import slide1 from '../../public/beatai_assets/images/glance/slide7.png';
+import slide2 from '../../public/beatai_assets/images/glance/slide8.png';
+import slide3 from '../../public/beatai_assets/images/glance/slide9.png';
 const AtaGlance = () => {
   return (
     <>
@@ -100,11 +99,11 @@ const AtaGlance = () => {
                 <Image src={slide15} alt="image" />
               </div>
             </div>
-            <div className="col mb-3  ">
+            {/* <div className="col mb-3  ">
               <div className="slide_item_img">
                 <Image src={slide16} alt="image" />
               </div>
-            </div>
+            </div> */}
             </Marquee>
           </div>
         </div>

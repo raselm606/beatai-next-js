@@ -49,7 +49,7 @@ const poppins = Poppins({
       "BeatAI.io: Empower Creativity via Lex, Your AI Agent for Innovative Productivity, Featuring BeatBidder Talent Auctions, BeatBuy Blockchain ticketing & NFTs, and BeatAI Multi-Engine AI Platform.",
     url: "https://beatai.io",
     siteName: "BeatAI.io",
-    images: ["/logo.png"],
+    images: ["/beatai_assets/images/logo.png"],
     type: "website",
   },
   twitter: {
@@ -57,7 +57,7 @@ const poppins = Poppins({
     title: "BeatAI: Harness multiple powerful AI engines to power your queries and deliver top-tier responses worldwide.",
     description:
       "BeatAI: Access multiple AI engines at your fingertips, enabling advanced data searches from the world's top AI engines, while featuring Lex Images, Workflows and Beats—a tool to enhance your music using our AI engine.",
-    images: ["/logo.png"],
+    images: ["/beatai_assets/images/logo.png"],
     creator: "@beatbind",
   },
   alternates: {
@@ -68,9 +68,9 @@ const poppins = Poppins({
     follow: true,
   },
   icons: {
-    icon: "/favicon.ico",
-    apple: "/favicon.ico",
-    shortcut: "/favicon.ico",
+    icon: "/beatai_assets/images/logo.png",
+    apple: "/beatai_assets/images/logo.png",
+    shortcut: "/beatai_assets/images/logo.png",
   },
 };
  

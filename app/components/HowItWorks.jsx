@@ -1,7 +1,7 @@
-import coupon_img from '@/app/beatai_assets/images/coupon.png';
-import small_cube from '@/app/beatai_assets/images/cube2.png';
 import Image from 'next/image';
 import Link from 'next/link';
+import coupon_img from '../../public/beatai_assets/images/coupon.png';
+import small_cube from '../../public/beatai_assets/images/cube2.png';
 const HowItWorks = () => {
   return (
     <>

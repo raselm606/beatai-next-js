@@ -1,8 +1,8 @@
 'use client';
-import ribbon from '@/app/beatai_assets/images/ribbon5.svg';
 import Image from 'next/image';
 import Link from "next/link";
 import { useEffect } from "react";
+import ribbon from '../../public/beatai_assets/images/ribbon5.svg';
 const Pricing = () => {
 
   useEffect(() => {

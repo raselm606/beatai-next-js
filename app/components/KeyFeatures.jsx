@@ -1,8 +1,8 @@
-import aiImage from '@/app/beatai_assets/images/ai-image-little.png';
-import beatsImage from '@/app/beatai_assets/images/beats_bg_img.png';
-import ficon from '@/app/beatai_assets/images/chat_icon_1.svg';
-import list_icon from '@/app/beatai_assets/images/workflow_icon_1.svg';
 import Image from 'next/image';
+import aiImage from '../../public/beatai_assets/images/ai-image-little.png';
+import beatsImage from '../../public/beatai_assets/images/beats_bg_img.png';
+import ficon from '../../public/beatai_assets/images/chat_icon_1.svg';
+import list_icon from '../../public/beatai_assets/images/workflow_icon_1.svg';
 
 const KeyFeatures = () => {
   return (

@@ -1,15 +1,15 @@
 import Image from 'next/image';
-import pie_graph from '../beatai_assets/images/chart5.svg';
-import cicon1 from '../beatai_assets/images/chart_icon/1.svg';
-import cicon10 from '../beatai_assets/images/chart_icon/10.svg';
-import cicon2 from '../beatai_assets/images/chart_icon/2.svg';
-import cicon3 from '../beatai_assets/images/chart_icon/3.svg';
-import cicon4 from '../beatai_assets/images/chart_icon/4.svg';
-import cicon5 from '../beatai_assets/images/chart_icon/5.svg';
-import cicon6 from '../beatai_assets/images/chart_icon/6.svg';
-import cicon7 from '../beatai_assets/images/chart_icon/7.svg';
-import cicon8 from '../beatai_assets/images/chart_icon/8.svg';
-import cicon9 from '../beatai_assets/images/chart_icon/9.svg';
+import pie_graph from '../../public/beatai_assets/images/chart5.svg';
+import cicon1 from '../../public/beatai_assets/images/chart_icon/1.svg';
+import cicon10 from '../../public/beatai_assets/images/chart_icon/10.svg';
+import cicon2 from '../../public/beatai_assets/images/chart_icon/2.svg';
+import cicon3 from '../../public/beatai_assets/images/chart_icon/3.svg';
+import cicon4 from '../../public/beatai_assets/images/chart_icon/4.svg';
+import cicon5 from '../../public/beatai_assets/images/chart_icon/5.svg';
+import cicon6 from '../../public/beatai_assets/images/chart_icon/6.svg';
+import cicon7 from '../../public/beatai_assets/images/chart_icon/7.svg';
+import cicon8 from '../../public/beatai_assets/images/chart_icon/8.svg';
+import cicon9 from '../../public/beatai_assets/images/chart_icon/9.svg';
 const BeataiFeatures = () => {
   return (
     <>

@@ -1,5 +1,5 @@
-import cube from '@/app/beatai_assets/images/cube.png';
 import Image from 'next/image';
+import cube from '../../public/beatai_assets/images/cube.png';
 const About = () => {
   return (
     <>

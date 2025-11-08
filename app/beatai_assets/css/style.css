@@ -177,7 +177,7 @@ img {
 }
 /*hero section*/
 .hero_section {
-    background: url('../images/hero-bg.png');
+    background: url('../../../public/beatai_assets/images/hero-bg.png');
     /* background: url('../images/about-bg.svg'); */
     padding: 150px 0 100px 0;
     background-repeat: no-repeat;
@@ -290,7 +290,7 @@ img {
     text-transform: capitalize;
 }
 .about_section {
-    background: url('../images/about-bg.svg');
+    background: url('../../../public/beatai_assets/images/about-bg.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
@@ -333,7 +333,7 @@ img {
 
 /*features sections*/
 .key_features_section {
-    background: url('../images/key_feature_bg.svg');
+    background: url('../../../public/beatai_assets/images/key_feature_bg.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
@@ -434,7 +434,7 @@ img {
 }
 /*integration*/
 .integration_section{
-    background: url('../images/integration_bg.svg');
+    background: url('../../../public/beatai_assets/images/integration_bg.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position:  center center;
@@ -442,7 +442,7 @@ img {
 
 /*pricing section*/
 .price_section{ 
-    background: url('../images/pricing_bg.svg');
+    background: url('../../../public/beatai_assets/images/pricing_bg.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position:  center  center;
@@ -599,7 +599,7 @@ img {
 }
 /*how it works*/
 .howitworks_section{ 
-    background: url('../images/howit_bg.svg');
+    background: url('../../../public/beatai_assets/images/howit_bg.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position:  center center;
@@ -654,7 +654,7 @@ background: -o-linear-gradient(127.11deg, #A75BE2 -1.05%, #0194FE 184.22%);
 }
 /*at a glance*/
 .ataglance_section{ 
-    background: url('../images/glance/ataglance_bg.svg');
+    background: url('../../../public/beatai_assets/images/glance/ataglance_bg.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position:  center center;
@@ -701,7 +701,7 @@ background: -o-linear-gradient(127.11deg, #A75BE2 -1.05%, #0194FE 184.22%);
     box-shadow: none !important;
 }
 .faq_section .accordion-button:not(.collapsed)::after {
-    background-image: url('../images/arrow-down-circle.svg') !important; 
+    background-image: url('../../../public/beatai_assets/images/arrow-down-circle.svg') !important; 
 }
 .faq_section .accordion-button {  
     color: #ffffff; 
@@ -710,7 +710,7 @@ background: -o-linear-gradient(127.11deg, #A75BE2 -1.05%, #0194FE 184.22%);
 }
 
 .faq_section .accordion-button::after { 
-    background-image: url('../images/arrow-down-circle.svg') !important;  
+    background-image: url('../../../public/beatai_assets/images/arrow-down-circle.svg') !important;  
 }
 .faq_section .accordion-body p {
     font-size: 14px;

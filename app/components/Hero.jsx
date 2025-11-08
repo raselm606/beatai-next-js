@@ -1,15 +1,15 @@
 'use client'; 
-import slide1 from '@/app/beatai_assets/images/banner1.jpg';
-import slide2 from '@/app/beatai_assets/images/banner2.jpg';
-import slide3_3 from '@/app/beatai_assets/images/banner3.3.svg';
-import slide3 from '@/app/beatai_assets/images/banner3.jpg';
-import slide4 from '@/app/beatai_assets/images/banner4.jpg';
-import slide5 from '@/app/beatai_assets/images/banner5.svg';
-import slide6 from '@/app/beatai_assets/images/banner6.svg';
-import support_icon from '@/app/beatai_assets/images/support-arrow.svg';
 import Image from 'next/image';
 import Link from 'next/link';
 import Slider from "react-slick";
+import slide1 from '../../public/beatai_assets/images/banner1.jpg';
+import slide2 from '../../public/beatai_assets/images/banner2.jpg';
+import slide3_3 from '../../public/beatai_assets/images/banner3.3.svg';
+import slide3 from '../../public/beatai_assets/images/banner3.jpg';
+import slide4 from '../../public/beatai_assets/images/banner4.jpg';
+import slide5 from '../../public/beatai_assets/images/banner5.svg';
+import slide6 from '../../public/beatai_assets/images/banner6.svg';
+import support_icon from '../../public/beatai_assets/images/support-arrow.svg';
 import PoweredLogo from './PoweredLogo';
 const Hero = () => {
   var settings = {
@@ -44,7 +44,7 @@ const Hero = () => {
                 <p data-aos="fade-up"  data-aos-delay="900" >Unleash the Power of AI, Streamlined and Effortless</p>
               </div>
               <div className="hero_btn mt-3 mb-4" data-aos="fade-up"  data-aos-delay="1000">
-                <Link disabled href="#" className="hero_big_btn mb-2">Get Started for FREE</Link>
+                <Link disabled href="https://beatai.io/login" className="hero_big_btn mb-2">Get Started for FREE</Link>
                 <Link href="#key-features" className="hero_big_btn mb-2">Explore Features</Link>
                 <Image className="support_arrow" src={support_icon} alt="icon" />
               </div>
