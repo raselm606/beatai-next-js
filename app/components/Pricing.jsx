@@ -102,7 +102,7 @@ const Pricing = () => {
                               </ul>
                              
                               <Link 
-                              href="#" 
+                              href="https://beatai.io/signup/?plan=trial_pro_monthly" 
                               data-action="upgrade_pro_yearly" 
                               data-track="button_click" 
                               className="btn btn-primary w-100 mt-3 sticky-bottom"
@@ -171,7 +171,7 @@ const Pricing = () => {
                               </ul>
                               <button className="btn btn-primary w-100 mt-3 sticky-bottom">Subscribe</button>
                               <Link 
-                              href="#" 
+                              href="https://beatai.io/signup/?plan=pro_plan_yearly" 
                               data-action="upgrade_pro_yearly" 
                               data-track="button_click" 
                               className="btn btn-primary w-100 mt-3 sticky-bottom"
@@ -255,7 +255,7 @@ const Pricing = () => {
                                 <li data-aos="fade-up">Professional Music Tools (Beats)</li>
                               </ul>
                               <Link 
-                              href="#" 
+                              href="https://beatai.io/signup/?plan=platinum_plan_yearly" 
                               data-action="upgrade_platinum_yearly" 
                               data-track="button_click" 
                               className="btn btn-primary w-100 mt-3 sticky-bottom"
@@ -317,7 +317,7 @@ const Pricing = () => {
                                
 
                               <Link 
-                              href="#" 
+                              href="https://beatai.io/signup/?plan=pro_trial_monthly" 
                               data-action="upgrade_pro_monthly" 
                               data-track="button_click" 
                               className="btn btn-primary w-100 mt-3 sticky-bottom"
@@ -379,7 +379,7 @@ const Pricing = () => {
                                
 
                               <Link 
-                              href="#" 
+                              href="https://beatai.io/signup/?plan=pro_plan_monthly" 
                               data-action="upgrade_pro_monthly" 
                               data-track="button_click" 
                               className="btn btn-primary w-100 mt-3 sticky-bottom"
@@ -463,7 +463,7 @@ const Pricing = () => {
                                 <li data-aos="fade-up">Professional Music Tools (Beats)</li>
                               </ul>
                               <Link 
-                              href="#" 
+                              href="https://beatai.io/signup/?plan=platinum_plan_monthly" 
                               data-action="upgrade_platinum_monthly" 
                               data-track="button_click" 
                               className="btn btn-primary w-100 mt-3 sticky-bottom"

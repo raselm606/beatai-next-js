@@ -44,7 +44,7 @@ const Hero = () => {
                 <p data-aos="fade-up"  data-aos-delay="900" >Unleash the Power of AI, Streamlined and Effortless</p>
               </div>
               <div className="hero_btn mt-3 mb-4" data-aos="fade-up"  data-aos-delay="1000">
-                <Link disabled href="https://beatai.io/login" className="hero_big_btn mb-2">Get Started for FREE</Link>
+                <Link  href="https://beatai.io/login" className="hero_big_btn mb-2">Get Started for FREE</Link>
                 <Link href="#key-features" className="hero_big_btn mb-2">Explore Features</Link>
                 <Image className="support_arrow" src={support_icon} alt="icon" />
               </div>
