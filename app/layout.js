@@ -55,9 +55,9 @@ const ogImage = "/beatlogo.jpg";
     images: [
       {
         url: ogImage,          // absolute URL
-        width: 1200,
-        height: 630,
-        alt: "BeatAI preview",
+        //width: 1200,
+        //height: 630,
+        alt: "BeatAI.io",
       },
     ],
   },
