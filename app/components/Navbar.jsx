@@ -5,6 +5,16 @@ import { useEffect, useState } from "react";
 import Logo from '../../public/beatai_assets/images/logo.svg';
 const Navbar = () => {
   const [navBg, setNavBg] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
+  
+  useEffect(() => {
+    // Check for accessToken in localStorage
+    const accessToken = localStorage.getItem('accessToken');
+    setIsAuthenticated(!!accessToken);
+    setIsLoading(false);
+  }, []);
+
   useEffect(() => {
   const handleScroll = () => {
     if (window.scrollY > 50) {
@@ -54,7 +64,13 @@ const Navbar = () => {
                   </li>
                 </ul>
                 <div className="button_right">
-                  <Link href="https://beatai.io/signup" >Sign Up</Link>
+                  {isLoading ? (
+                    <span className="spinner-border spinner-border-sm" role="status" aria-label="Loading"></span>
+                  ) : (
+                    <Link href={isAuthenticated ? "https://beatai.io/chat" : "https://beatai.io/signup"}>
+                      {isAuthenticated ? "Chat with Lex" : "Sign Up"}
+                    </Link>
+                  )}
                 </div>
               </div>
             </div>

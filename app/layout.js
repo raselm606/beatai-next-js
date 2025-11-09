@@ -19,10 +19,12 @@ const poppins = Poppins({
   display: 'swap',
   variable: "--font-poppins",
 });
+const siteUrl = "https://beatai.io";
+const ogImage = "../../public/beatlogo.jpg";
 
  export const metadata = {
   // base URL 
-  metadataBase: new URL("https://beatai.io"),
+  metadataBase: new URL(siteUrl),
   title: {
     default: "BeatAI: Meet Lex, our AI agent that consolidates multiple engines into one streamlined platform, designed to meet all your needs across creative and professional fields.",
     template: "%s | BeatAI",
@@ -47,21 +49,29 @@ const poppins = Poppins({
     title: "BeatAI: Advanced multi-AI engines on one unified platform, unleashing the power of AI with streamlined and effortless focus.",
     description:
       "BeatAI.io: Empower Creativity via Lex, Your AI Agent for Innovative Productivity, Featuring BeatBidder Talent Auctions, BeatBuy Blockchain ticketing & NFTs, and BeatAI Multi-Engine AI Platform.",
-    url: "https://beatai.io",
+    url: siteUrl,
     siteName: "BeatAI.io",
-    images: ["/beatai_assets/images/logo.png"],
     type: "website",
+    images: [
+      {
+        url: ogImage,          // absolute URL
+        width: 1200,
+        height: 630,
+        alt: "BeatAI preview",
+      },
+    ],
   },
+  
   twitter: {
     card: "summary",
     title: "BeatAI: Harness multiple powerful AI engines to power your queries and deliver top-tier responses worldwide.",
     description:
       "BeatAI: Access multiple AI engines at your fingertips, enabling advanced data searches from the world's top AI engines, while featuring Lex Images, Workflows and Beats—a tool to enhance your music using our AI engine.",
     images: ["/beatai_assets/images/logo.png"],
-    creator: "@beatbind",
+    creator: "@beatAI",
   },
   alternates: {
-    canonical: "https://beatai.io",
+    canonical: siteUrl,
   },
   robots: {
     index: true,
