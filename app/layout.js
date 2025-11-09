@@ -19,7 +19,7 @@ const poppins = Poppins({
   display: 'swap',
   variable: "--font-poppins",
 });
-const siteUrl = "https://beatai.io";
+const siteUrl = "https://beatai-next-js.vercel.app/";
 const ogImage = "../../public/beatlogo.jpg";
 
  export const metadata = {
