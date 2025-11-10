@@ -58,6 +58,7 @@ const ogImage = "/beatlogo.jpg";
         //width: 1200,
         //height: 630,
         alt: "BeatAI.io",
+        type: "image/jpeg",
       },
     ],
   },

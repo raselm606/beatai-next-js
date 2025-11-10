@@ -5,6 +5,7 @@ import beatbind from '../../public/beatai_assets/images/powered/beatbind.svg';
 import claude from '../../public/beatai_assets/images/powered/claude.svg';
 import deepseek from '../../public/beatai_assets/images/powered/deepseek.svg';
 import gemini from '../../public/beatai_assets/images/powered/gemini.svg';
+import nanoBanana from '../../public/beatai_assets/images/powered/nano-banana.svg';
 import gmap from '../../public/beatai_assets/images/powered/google-map.svg';
 import grok from '../../public/beatai_assets/images/powered/grok.svg';
 import openai from '../../public/beatai_assets/images/powered/openai.svg';
@@ -49,6 +50,11 @@ const PoweredLogo = () => {
             <div className="col-12 col-sm mb-3">
               <div className="img_powered">
                 <Image src={gemini} alt="" />
+              </div>
+            </div>
+            <div className="col-12 col-sm mb-3">
+              <div className="img_powered">
+                <Image src={nanoBanana} alt="" />
               </div>
             </div>
             <div className="col-12 col-sm mb-3">
