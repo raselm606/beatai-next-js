@@ -5,9 +5,9 @@ import beatbind from '../../public/beatai_assets/images/powered/beatbind.svg';
 import claude from '../../public/beatai_assets/images/powered/claude.svg';
 import deepseek from '../../public/beatai_assets/images/powered/deepseek.svg';
 import gemini from '../../public/beatai_assets/images/powered/gemini.svg';
-import nanoBanana from '../../public/beatai_assets/images/powered/nano-banana.svg';
 import gmap from '../../public/beatai_assets/images/powered/google-map.svg';
 import grok from '../../public/beatai_assets/images/powered/grok.svg';
+import nanoBanana from '../../public/beatai_assets/images/powered/nano-banana.svg';
 import openai from '../../public/beatai_assets/images/powered/openai.svg';
 import perplex from '../../public/beatai_assets/images/powered/perplexity.svg';
 import qwen from '../../public/beatai_assets/images/powered/qwen.svg';
@@ -29,17 +29,17 @@ const PoweredLogo = () => {
             <Marquee speed={60} gradient={false}> 
             <div className="col-12 col-sm mb-3">
               <div className="img_powered">
-                <Image src={perplex} alt="" />
+                <Image src={perplex} alt="#" />
               </div>
             </div>
             <div className="col-12 col-sm mb-3">
               <div className="img_powered">
-                <Image src={gmap} alt="" />
+                <Image src={gmap} alt="#" />
               </div>
             </div>
             <div className="col-12 col-sm mb-3">
               <div className="img_powered">
-                <Image src={openai} alt="" />
+                <Image src={openai} alt="#" />
               </div>
             </div>
             <div className="col-12 col-sm mb-3">

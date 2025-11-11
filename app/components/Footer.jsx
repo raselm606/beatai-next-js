@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import beatbind_form from '../../public/beatai_assets/images/glance/social/beatbind_form.svg'
 import facebook from '../../public/beatai_assets/images/glance/social/facebook.svg'
+import beatbind_form from '../../public/beatai_assets/images/glance/social/fbeatbind.svg'
 import instagram from '../../public/beatai_assets/images/glance/social/instagram.svg'
 import linkedin from '../../public/beatai_assets/images/glance/social/linkedin.svg'
 import medium from '../../public/beatai_assets/images/glance/social/medium.svg'
@@ -14,7 +14,9 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
+              
               <div className="footer_text text-center">
+                
                 <p>Copyright © {new Date().getFullYear()}, BeatAI. <br />
                   All trademarks and copyrights belong to their respective owners.</p>
 
@@ -50,10 +52,14 @@ const Footer = () => {
 
                 </div>
 
-                <div className="beatlogo mt-4">
+                <div className="beatlogo text-center mt-4">
+                  <span>with 💜 from</span> 
                   <Link href="https://beatbind.io"><Image src={beatbind_form} alt="logo" /></Link>
                 </div>
+
+                
               </div>
+              
             </div>
           </div>
         </div>

@@ -800,3 +800,8 @@ background: -o-linear-gradient(127.11deg, #A75BE2 -1.05%, #0194FE 184.22%);
     left: 35%;
     font-size: 14px;
 }
+.beatlogo span {
+    color: #dddae4;
+    line-height: 16px;
+    display: block;
+}
