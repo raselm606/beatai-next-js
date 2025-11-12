@@ -309,10 +309,10 @@ const Pricing = () => {
                                       cursor: "pointer", 
                                     }}/> &nbsp;
                                   </li>
-                                <li data-aos="fade-up">Perfect for exploring what we offer</li>
+                                <li data-aos="fade-up top_off">Perfect for exploring what we offer </li>
                                 <li data-aos="fade-up">Get started with 190 credits</li>
-                                <li data-aos="fade-up">Experience the full potential</li>
-                                <li data-aos="fade-up">No Commitment required</li>
+                                <li data-aos="fade-up">Experience the full potential </li>
+                                <li data-aos="fade-up">No Commitment required </li>
                               </ul>
                                
 
