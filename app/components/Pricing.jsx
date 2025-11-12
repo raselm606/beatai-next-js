@@ -116,7 +116,7 @@ const Pricing = () => {
                           </div>
                           
                           <div className="col-lg-4 mb-3">
-                            <div className="card popuplar  pricing-card beatai_pricing_card p-4">
+                            <div className="card   pricing-card beatai_pricing_card p-4">
 
                               <p className="text-center text_blue get_free">Get 1 Month Free!</p>
                               
@@ -182,7 +182,7 @@ const Pricing = () => {
                           </div>
                           
                           <div className="col-lg-4 mb-3">
-                            <div className="card  pricing-card beatai_pricing_card p-4">
+                            <div className="card ppick pricing-card beatai_pricing_card p-4">
                               <p className="text-center text_blue get_free"> Get 1 Month Free!</p>
                               <h5 className="plan-name text_platinum"> 
                                 Platinum Plan
@@ -324,6 +324,8 @@ const Pricing = () => {
                               >
                                  Start 7 - Day Pro Trial
                               </Link>
+
+                              <small className="dssds">or until your credits run out—whichever comes first!</small>
                             </div>
                           </div>
                           

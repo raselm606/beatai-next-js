@@ -805,3 +805,34 @@ background: -o-linear-gradient(127.11deg, #A75BE2 -1.05%, #0194FE 184.22%);
     line-height: 16px;
     display: block;
 }
+
+.ppick::before {
+    content: "Prime Pick";
+    color: rgb(82 29 133);
+    text-transform: uppercase;
+    z-index: 2;
+    background: rgb(247, 204, 47);
+    border-radius: 4px 6px 15px 16px;
+    padding: 4px 20px 1px 24px;
+    font-size: 12px;
+    position: absolute;
+    top: -3px;
+    right: 23px;
+    box-shadow: rgba(0, 0, 0, 0.48) 0px -4px 4px 4px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+.ppick::after {
+    content: "";
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    z-index: 1;
+    background: rgb(247, 204, 47);
+    border-radius: 69px 69px 0px 0px;
+    width: 155px;
+    height: 15px;
+    font-size: 11px;
+    position: absolute;
+    top: 0;
+    right: 2px;
+}

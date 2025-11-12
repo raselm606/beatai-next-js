@@ -11,8 +11,10 @@
     .coming_soon:after { 
         bottom: 80px !important; 
     }
-    .navbar_area {
-        background: rgb(40 7 98 / 84%);
+    .navbar_area { 
+        background: -webkit-linear-gradient(#39137c,#0c164f)!important;
+        background: -moz-linear-gradient(#39137c,#0c164f)!important;
+        background: -o-linear-gradient(#39137c,#0c164f)!important;
     }
     .features_item { 
         height: 100% !important; 
@@ -67,8 +69,11 @@
 
 /* Small / Mobile */
 @media only screen and (max-width: 576px) {
-    .navbar_area {
-        background: rgb(40 7 98 / 84%);
+    
+    .navbar_area { 
+        background: -webkit-linear-gradient(#39137c,#0c164f)!important;
+        background: -moz-linear-gradient(#39137c,#0c164f)!important;
+        background: -o-linear-gradient(#39137c,#0c164f)!important;
     }
     
     .features_item { 
@@ -128,8 +133,11 @@
 }
 
 @media only screen and (max-width: 375px) {
-    .navbar_area {
-        background: rgb(40 7 98 / 84%);
+    
+    .navbar_area { 
+        background: -webkit-linear-gradient(#39137c,#0c164f)!important;
+        background: -moz-linear-gradient(#39137c,#0c164f)!important;
+        background: -o-linear-gradient(#39137c,#0c164f)!important;
     }
     
     .features_item { 

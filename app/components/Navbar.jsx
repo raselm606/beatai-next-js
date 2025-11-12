@@ -64,12 +64,18 @@ const Navbar = () => {
                   </li>
                 </ul>
                 <div className="button_right">
+                  
                   {isLoading ? (
                     <span className="spinner-border spinner-border-sm" role="status" aria-label="Loading"></span>
                   ) : (
-                    <Link href={isAuthenticated ? "https://beatai.io/chat" : "https://beatai.io/signup"}>
-                      {isAuthenticated ? "Chat with Lex" : "Sign Up"}
+                    <>
+                    {/* <Link className={isAuthenticated ? "d-none": "mx-1" } href= "https://beatai.io/login">
+                      Login
+                    </Link> */}
+                    <Link className="mx-1" href={isAuthenticated ? "https://beatai.io/chat" : "https://beatai.io/login"}>
+                      {isAuthenticated ? "Chat with Lex" : "Login"}
                     </Link>
+                    </>
                   )}
                 </div>
               </div>
