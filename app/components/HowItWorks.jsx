@@ -2,6 +2,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import coupon_img from '../../public/beatai_assets/images/coupon.png';
 import small_cube from '../../public/beatai_assets/images/cube2.png';
+import user4 from '../../public/beatai_assets/images/gif/delivery-service.gif';
+import user3 from '../../public/beatai_assets/images/gif/profile.gif';
+import user2 from '../../public/beatai_assets/images/gif/recommendation.gif';
+import user1 from '../../public/beatai_assets/images/gif/speech-bubble.gif';
 const HowItWorks = () => {
   return (
     <>
@@ -18,7 +22,7 @@ const HowItWorks = () => {
 
             <div className="col-lg-3 mb-3">
               <div className="card_works" data-aos="fade-up">
-                <span>1</span>
+                <span><Image src={user1} alt=""></Image></span>
                 <h6 data-aos="fade-up">Create Your Account</h6>
                 <p>Unlock Your BeatAI Journey Today!</p>
               </div>
@@ -26,7 +30,7 @@ const HowItWorks = () => {
 
             <div className="col-lg-3 mb-3">
               <div className="card_works" data-aos="fade-up">
-                <span>2</span>
+                <span><Image src={user2} alt=""></Image></span>
                 <h6 data-aos="fade-up">Choose Your Package</h6>
                 <p>Select the Perfect Plan for Your Music Dreams!</p>
               </div>
@@ -34,7 +38,7 @@ const HowItWorks = () => {
 
             <div className="col-lg-3 mb-3">
               <div className="card_works" data-aos="fade-up">
-                <span>3</span>
+                <span><Image src={user3} alt=""></Image></span>
                 <h6 data-aos="fade-up">Create Your Profile</h6>
                 <p>Build Your Unique BeatAI Identity!</p>
               </div>
@@ -42,7 +46,7 @@ const HowItWorks = () => {
 
             <div className="col-lg-3 mb-3">
               <div className="card_works" data-aos="fade-up">
-                <span>4</span>
+                <span><Image src={user4} alt=""></Image></span>
                 <h6 data-aos="fade-up">Enjoy BeatAI</h6>
                 <p>Dive In and Elevate Your Music Experience!</p>
               </div>

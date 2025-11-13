@@ -605,21 +605,21 @@ img {
     background-position:  center center;
 }
 .card_works {
-    background: #703CF4;
-    height: 125px;
+    border: 1px solid #ffffff1f;
     border-radius: 16px;
-    padding: 10px 25px;
+    height: 180px;
+    padding: 25px 30px 15px 30px;
+    text-align: center;
 }
 .card_works:hover{ 
 
-background: linear-gradient(127.11deg, #A75BE2 -1.05%, #0194FE 184.22%); 
-background: -webkit-linear-gradient(127.11deg, #A75BE2 -1.05%, #0194FE 184.22%); 
-background: -moz-linear-gradient(127.11deg, #A75BE2 -1.05%, #0194FE 184.22%); 
-background: -o-linear-gradient(127.11deg, #A75BE2 -1.05%, #0194FE 184.22%); 
+background: linear-gradient(127.11deg, #894aec -1.05%, #0e0a3e 184.22%); 
+background: -webkit-linear-gradient(127.11deg, #894aec -1.05%, #0e0a3e 184.22%); 
+background: -moz-linear-gradient(127.11deg, #894aec -1.05%, #0e0a3e 184.22%); 
+background: -o-linear-gradient(127.11deg, #894aec -1.05%, #0e0a3e 184.22%); 
 
 }
-.card_works span {
-    background: #fff;
+.card_works span { 
     padding: 4px 7px;
     display: inline-block;
     font-size: 12px;
@@ -627,14 +627,20 @@ background: -o-linear-gradient(127.11deg, #A75BE2 -1.05%, #0194FE 184.22%);
     border-radius: 5px;
     margin-bottom: 10px;
 }
+.card_works span img {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+}
 .card_works p {
     font-size: 12px;
     line-height: 18px;
 }
 
 .card_works h6 {
-    font-size: 16px;
     margin-bottom: 8px;
+    font-size: 16px;
+    margin-top: 10px;
 }
 .extra_bg { 
     padding: 40px 10px 60px 10px;
