@@ -58,13 +58,7 @@
         font-size: 32px !important; 
         line-height: 44px !important;
     }
-    /* .navbar_area {
-        -webkit-backdrop-filter: blur(6px);
-        backdrop-filter: blur(6px);
-        background: -webkit-linear-gradient(#39137c, #0c164f);
-        background: -moz-linear-gradient(#39137c, #0c164f);
-        background: -o-linear-gradient(#39137c, #0c164f);
-    } */
+   
 }
 
 /* Small / Mobile */
