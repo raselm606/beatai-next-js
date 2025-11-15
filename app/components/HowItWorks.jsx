@@ -15,13 +15,13 @@ const HowItWorks = () => {
             <Image className="ani_img" src={small_cube} alt="image" />
             <div className="col-lg-12">
               <div className="section_title text-center">
-                <span data-aos="fade-up">4 simple steps</span>
-                <h2 data-aos="fade-up">How BeatAI works</h2> 
+                <span data-aos="fade-up cs"> 4 simple steps</span>
+                <h2 data-aos="fade-up cs">How BeatAI works</h2> 
               </div>
             </div>
 
-            <div className="col-lg-3 mb-3">
-              <div className="card_works" data-aos="fade-up">
+            <div className="col-lg-3 mb-3 cs">
+              <div className="card_works cs" data-aos="fade-up">
                 <span><Image src={user1} alt=""></Image></span>
                 <h6 data-aos="fade-up">Create Your Account</h6>
                 <p>Unlock Your BeatAI Journey Today!</p>
