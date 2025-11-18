@@ -442,7 +442,7 @@ img {
 
 /*pricing section*/
 .price_section{ 
-    background: url('../../../public/beatai_assets/images/pricing_bg.svg');
+    background: url('../../../public/beatai_assets/images/pricing_bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position:  center  center;
