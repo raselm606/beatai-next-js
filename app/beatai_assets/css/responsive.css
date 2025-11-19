@@ -1,5 +1,3 @@
-/* Large / Desktop */
-
 
 /* Medium / Tablet */
 @media only screen and (max-width: 768px) {
@@ -10,6 +8,7 @@
         bottom: 80px !important; 
     }
     .navbar_area { 
+        background: linear-gradient(#39137c,#0c164f)!important;
         background: -webkit-linear-gradient(#39137c,#0c164f)!important;
         background: -moz-linear-gradient(#39137c,#0c164f)!important;
         background: -o-linear-gradient(#39137c,#0c164f)!important;
