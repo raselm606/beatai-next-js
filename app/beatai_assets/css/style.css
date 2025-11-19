@@ -7,12 +7,7 @@ body {
     line-height: 1.8;
     word-wrap: break-word;
     font-family: 'Poppins', sans-serif;
-    background: #1C074B;
-
-    /* background: linear-gradient(170.52deg, #180640 17.69%, #220076 163.29%);
-    background: -webkit-linear-gradient(170.52deg, #180640 17.69%, #220076 163.29%);
-    background: -moz-linear-gradient(170.52deg, #180640 17.69%, #220076 163.29%);
-    background: -o-linear-gradient(170.52deg, #180640 17.69%, #220076 163.29%); */
+    background: #1C074B; 
 
 }
  
