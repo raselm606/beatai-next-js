@@ -177,8 +177,7 @@ img {
 }
 /*hero section*/
 .hero_section {
-    background: url('../../../public/beatai_assets/images/hero-bg.png');
-    /* background: url('../images/about-bg.svg'); */
+    background: url('../../../public/beatai_assets/images/hero-bg.png'); 
     padding: 150px 0 100px 0;
     background-repeat: no-repeat;
     background-size: cover;
