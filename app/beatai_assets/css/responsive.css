@@ -67,6 +67,13 @@
         background: -o-linear-gradient(#39137c,#0c164f)!important;
     }
     
+    
+    .navbar_area { 
+        background: -webkit-linear-gradient(#39137c,#0c164f)!important;
+        background: -moz-linear-gradient(#39137c,#0c164f)!important;
+        background: -o-linear-gradient(#39137c,#0c164f)!important;
+    }
+    
     .features_item { 
         height: 100%; 
         padding: 20px 30px;
