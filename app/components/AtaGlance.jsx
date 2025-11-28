@@ -28,7 +28,7 @@ const AtaGlance = () => {
               <div className="section_title">
                 <span data-aos="fade-up">At a glance</span>
                 <h2 data-aos="fade-up">Instant Visual Magic at a Glance!</h2>
-                <p data-aos="fade-up">AI isn’t here to replace human creativity—It’s here to enhance it and help you reach new heights.</p>
+                <p data-aos="fade-up"> AI isn’t here to replace human creativity, it’s here to amplify it, empowering you to achieve unprecedented heights.  </p>
                 <p data-aos="fade-up">Whether you’re crafting fanart of your favorite anime or exploring new artistic frontiers, AI can be your creative partner, empowering you to bring your imagination to life like never before.</p>
               </div>
               <div className="icon_items_glance">
@@ -39,7 +39,7 @@ const AtaGlance = () => {
                   </li>
                   <li data-aos="fade-up">
                     <Image src={glance_two} alt="" /> 
-                  Unleash Your Imagination—Create More with BeatAI
+                  Unleash your imagination and create more with BeatAI
                   </li>
                 </ul>
               </div>
