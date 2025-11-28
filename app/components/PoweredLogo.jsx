@@ -7,6 +7,7 @@ import deepseek from '../../public/beatai_assets/images/powered/deepseek.svg';
 import gemini from '../../public/beatai_assets/images/powered/gemini.svg';
 import gmap from '../../public/beatai_assets/images/powered/google-map.svg';
 import grok from '../../public/beatai_assets/images/powered/grok.svg';
+import meetlex from '../../public/beatai_assets/images/powered/meetlex.svg';
 import nanoBanana from '../../public/beatai_assets/images/powered/nano-banana.svg';
 import openai from '../../public/beatai_assets/images/powered/openai.svg';
 import perplex from '../../public/beatai_assets/images/powered/perplexity.svg';
@@ -80,6 +81,11 @@ const PoweredLogo = () => {
             <div className="col-12 col-sm mb-3">
               <div className="img_powered">
                 <Image src={ticketmaster} alt="" />
+              </div>
+            </div>
+            <div className="col-12 col-sm mb-3">
+              <div className="img_powered">
+                <Image src={meetlex} alt="" />
               </div>
             </div>
             <div className="col-12 col-sm mb-3">
