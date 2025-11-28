@@ -34,11 +34,11 @@ const AtaGlance = () => {
               <div className="icon_items_glance">
                 <ul>
                   <li data-aos="fade-up">
-                    <Image src={glance_one} alt="" /> 
+                    <Image src={glance_one} alt="image" /> 
                   Where Human Creativity Meets AI Possibility
                   </li>
                   <li data-aos="fade-up">
-                    <Image src={glance_two} alt="" /> 
+                    <Image src={glance_two} alt="image" /> 
                   Unleash your imagination and create more with BeatAI
                   </li>
                 </ul>
