@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Marquee from "react-fast-marquee";
+import amad from '../../public/beatai_assets/images/powered/amad.svg';
 import aws from '../../public/beatai_assets/images/powered/aws.svg';
 import beatbind from '../../public/beatai_assets/images/powered/beatbind.svg';
 import claude from '../../public/beatai_assets/images/powered/claude.svg';
@@ -49,6 +50,11 @@ const PoweredLogo = () => {
             <div className="col-12 col-sm mb-3">
               <div className="img_powered">
                 <Image src={grok} alt="" />
+              </div>
+            </div>
+            <div className="col-12 col-sm mb-3">
+              <div className="img_powered">
+                <Image src={amad} alt="" />
               </div>
             </div>
             <div className="col-12 col-sm mb-3">
