@@ -127,6 +127,11 @@ const PoweredLogo = () => {
                 <Image src={aws} alt="" />
               </div>
             </div> 
+            <div className="col-12 col-sm mb-3">
+              <div className="img_powered">
+                <Image src={aws} alt="aws" />
+              </div>
+            </div> 
 
             </Marquee>
           </div>
