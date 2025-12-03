@@ -84,7 +84,7 @@ const PoweredLogo = () => {
             </div>
             <div className="col-12 col-sm mb-3">
               <div className="img_powered">
-                <Image src={claude} alt="" />
+                <Image src={claude} alt="claude" />
               </div>
             </div>
             <div className="col-12 col-sm mb-3">
