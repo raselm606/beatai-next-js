@@ -54,12 +54,12 @@ const PoweredLogo = () => {
             </div>
             <div className="col-12 col-sm mb-3">
               <div className="img_powered">
-                <Image src={amad} alt="" />
+                <Image src={amad} alt="amad" />
               </div>
             </div>
             <div className="col-12 col-sm mb-3">
               <div className="img_powered">
-                <Image src={gemini} alt="" />
+                <Image src={gemini} alt="gemini" />
               </div>
             </div>
             <div className="col-12 col-sm mb-3">
