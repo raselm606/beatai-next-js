@@ -34,12 +34,12 @@ const PoweredLogo = () => {
             <Marquee speed={60} gradient={false}> 
             <div className="col-12 col-sm mb-3">
               <div className="img_powered">
-                <Image src={perplex} alt="#" />
+                <Image src={perplex} alt="perplex" />
               </div>
             </div>
             <div className="col-12 col-sm mb-3">
               <div className="img_powered">
-                <Image src={gmap} alt="#" />
+                <Image src={gmap} alt="gmap" />
               </div>
             </div>
             <div className="col-12 col-sm mb-3">
@@ -79,7 +79,7 @@ const PoweredLogo = () => {
             </div>
             <div className="col-12 col-sm mb-3">
               <div className="img_powered">
-                <Image src={veo} alt="" />
+                <Image src={veo} alt="veo" />
               </div>
             </div>
             <div className="col-12 col-sm mb-3">
