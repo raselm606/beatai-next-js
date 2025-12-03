@@ -64,12 +64,12 @@ const PoweredLogo = () => {
             </div>
             <div className="col-12 col-sm mb-3">
               <div className="img_powered">
-                <Image src={nanoBanana} alt="" />
+                <Image src={nanoBanana} alt="nanoBanana" />
               </div>
             </div>
             <div className="col-12 col-sm mb-3">
               <div className="img_powered">
-                <Image src={eleven} alt="" />
+                <Image src={eleven} alt="eleven" />
               </div>
             </div>
             <div className="col-12 col-sm mb-3">
