@@ -32,7 +32,7 @@ const AtaGlance = () => {
                 <p data-aos="fade-up">Whether you’re crafting fanart of your favorite anime or exploring new artistic frontiers, AI can be your creative partner, empowering you to bring your imagination to life like never before.</p>
               </div>
               <div className="icon_items_glance">
-                <ul>
+                <ul className="icon_ul">
                   <li data-aos="fade-up">
                     <Image src={glance_one} alt="glance_one" /> 
                   Where Human Creativity Meets AI Possibility
