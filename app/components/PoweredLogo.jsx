@@ -109,17 +109,17 @@ const PoweredLogo = () => {
             </div>
             <div className="col-12 col-sm mb-3">
               <div className="img_powered">
-                <Image src={meetlex} alt="meetlex" />
+                <Image src={meetlex} alt="meetlexai" />
               </div>
             </div> 
             <div className="col-12 col-sm mb-3">
               <div className="img_powered">
-                <Image src={stripe} alt="strip" />
+                <Image src={stripe} alt="stripe" />
               </div>
             </div> 
             <div className="col-12 col-sm mb-3">
               <div className="img_powered">
-                <Image src={aws} alt="aws" />
+                <Image src={aws} alt="awss" />
               </div>
             </div> 
 
