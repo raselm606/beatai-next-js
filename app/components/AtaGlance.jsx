@@ -21,7 +21,7 @@ const AtaGlance = () => {
           <div className="row justify-content-center">
             <div className="col-lg-6 mb-3">
               <div className="glance_left_img">
-                <Image  data-aos="fade-up" src={glance_big_img} alt="" />
+                <Image  data-aos="fade-up" src={glance_big_img} alt="glance_big_img image" />
               </div>
             </div>
             <div className="col-lg-6 mb-3">
@@ -34,11 +34,11 @@ const AtaGlance = () => {
               <div className="icon_items_glance">
                 <ul>
                   <li data-aos="fade-up">
-                    <Image src={glance_one} alt="image" /> 
+                    <Image src={glance_one} alt="glance_one" /> 
                   Where Human Creativity Meets AI Possibility
                   </li>
                   <li data-aos="fade-up">
-                    <Image src={glance_two} alt="image" /> 
+                    <Image src={glance_two} alt="glance_two image" /> 
                   Unleash your imagination and create more with BeatAI
                   </li>
                 </ul>
