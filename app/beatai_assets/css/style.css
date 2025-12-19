@@ -442,6 +442,17 @@ img {
 .features_small_list ul li {
     margin-bottom: 15px;
 }
+
+.mslist ul li img {
+    margin-top: -38px; 
+}
+
+.mslist ul li {
+    
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
 /*integration section*/
 .integration_section{
     background: url('../../../public/beatai_assets/images/integration_bg.svg');

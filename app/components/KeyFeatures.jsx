@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import aiImage from '../../public/beatai_assets/images/ai-image-little.png';
-import beatsImage from '../../public/beatai_assets/images/beats_bg_img.png';
 import ficon from '../../public/beatai_assets/images/chat_icon_1.svg';
 import list_icon from '../../public/beatai_assets/images/workflow_icon_1.svg';
 
@@ -70,12 +69,36 @@ const KeyFeatures = () => {
 
             <div className="col-lg-6 col-12 mb-3">
               <div className="features_item"  data-aos="fade-up" data-aos-delay="1000">
-                <h4>Beats: Elevating Music Creation</h4>
-                <p>Bring your music and transform it using our suite of tools, from stem separation and AI mastering to beat generation, chord suggestions, and beyond.</p>
+                <h4>⚡ Supercharge Your Music With AI That Moves as Fast as You Do</h4>
+                {/* <p>Bring your music and transform it using our suite of tools, from stem separation and AI mastering to beat generation, chord suggestions, and beyond.</p> */}
 
-                <div className="features_img"  data-aos="fade-up" data-aos-delay="1000">
-                  <Image src={beatsImage} alt="AI Image" />
+                <div className="features_small_list mslist"> 
+                  <ul>
+                    <li  data-aos="fade-up" data-aos-delay="1100">
+                      <Image src={list_icon} alt="icon" />
+                    <span>Drop in your tracks and watch AI‑powered stem separation and mastering elevate your sound instantly</span>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="1200"><Image src={list_icon} alt="icon" /> 
+                    <span>Ignite creativity with beat generation, smart chord suggestions, and tools that keep ideas flowing</span>
+                    </li>
+                    <li  data-aos="fade-up" data-aos-delay="1250"><Image src={list_icon} alt="icon" /> 
+                    <span>Turn raw concepts into studio‑quality audio using cutting‑edge AI sound engines</span>
+                    </li>
+                    <li  data-aos="fade-up" data-aos-delay="1250"><Image src={list_icon} alt="icon" /> 
+                    <span>Create full songs from simple text prompts — your imagination drives the music</span>
+                    </li>
+                    <li  data-aos="fade-up" data-aos-delay="12750"><Image src={list_icon} alt="icon" /> 
+                    <span>Then take your finished audio and instantly generate a super‑cool, AI‑crafted music video</span>
+                    </li>
+                    <li  data-aos="fade-up" data-aos-delay="12750"><Image src={list_icon} alt="icon" />
+                    <span>Your always‑on, always‑inspired AI audio + video production partner built for bold creators</span>
+                    </li> 
+                  </ul>
                 </div>
+
+                {/* <div className="features_img"  data-aos="fade-up" data-aos-delay="1000">
+                  <Image src={beatsImage} alt="AI Image" />
+                </div> */}
               </div>
             </div>
 
