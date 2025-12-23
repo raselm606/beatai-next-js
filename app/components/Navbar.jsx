@@ -48,19 +48,19 @@ const Navbar = () => {
                     <Link className="nav-link " aria-current="page" href="https://beatai.io/">Lex</Link>
                   </li>
                   <li className="nav-item">
-                    <Link     className="nav-link " href="#about">About Us</Link>
+                    <Link     className="nav-link " href="https://beatai.io/#about">About Us</Link>
                   </li>
                   <li className="nav-item">
-                    <Link     className="nav-link " href="#key-features">Features</Link>
+                    <Link     className="nav-link " href="https://beatai.io/#key-features">Features</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" href="#pricing">Pricing</Link>
+                    <Link className="nav-link" href="https://beatai.io/#pricing">Pricing</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link " href="#howitworks">How it works</Link>
+                    <Link className="nav-link " href="https://beatai.io/#howitworks">How it works</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link " href="#faq">FAQ</Link>
+                    <Link className="nav-link " href="https://beatai.io/#faq">FAQ</Link>
                   </li>
                 </ul>
                 <div className="button_right">

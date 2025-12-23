@@ -865,3 +865,34 @@ background: -o-linear-gradient(127.11deg, #894aec -1.05%, #0e0a3e 184.22%);
     top: 0;
     right: 2px;
 }
+
+/*flow chart css*/
+.flowchart-area {
+    /* background-image: -webkit-gradient(linear, left top, left bottom, from(#1d0678), to(#02072f)); */
+    /* background-image: linear-gradient(#1d0678, #02072f); */
+    background: url("../../../public/beatai_assets/ai_flow/flowchart.jpg");
+    /* height: 750px; 
+    height: 100vh; */
+    background-size: cover;
+    background-position: right bottom;
+}
+.pb-100 {
+    padding-bottom: 100px;
+}
+.pt-200 {
+    padding-top: 200px;
+}
+.pt-100 {
+    padding-top: 100px;
+}
+.ptb-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.faq-area {
+    background: url("../../../public/beatai_assets/ai_flow/faq.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
