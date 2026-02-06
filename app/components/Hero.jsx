@@ -2,13 +2,14 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Slider from "react-slick";
-import slide1 from '../../public/beatai_assets/images/banner1.jpg';
-import slide2 from '../../public/beatai_assets/images/banner2.jpg';
+import slide1 from '../../public/beatai_assets/images/banner1_1.jpg';
+import slide2 from '../../public/beatai_assets/images/banner2_2.jpg';
 import slide3_3 from '../../public/beatai_assets/images/banner3.3.jpg';
-import slide3 from '../../public/beatai_assets/images/banner3.jpg';
+import slide3 from '../../public/beatai_assets/images/banner3_3.jpg';
 import slide4 from '../../public/beatai_assets/images/banner4.jpg';
 import slide5 from '../../public/beatai_assets/images/banner5.jpg';
 import slide6 from '../../public/beatai_assets/images/banner6.jpg';
+import slide7 from '../../public/beatai_assets/images/banner7.jpg';
 import support_icon from '../../public/beatai_assets/images/support-arrow.svg';
 import PoweredLogo from './PoweredLogo';
 const Hero = () => {
@@ -73,6 +74,9 @@ const Hero = () => {
                 </div>
                 <div className="slick_s">
                   <Image src={slide6} alt="slide6" />
+                </div>
+                <div className="slick_s">
+                  <Image src={slide7} alt="slide7" />
                 </div>
                 </Slider>
               </div>
