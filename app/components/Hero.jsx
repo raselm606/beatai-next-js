@@ -42,7 +42,7 @@ const Hero = () => {
               <div className="hero_text">
                 <span className="toptext" data-aos="fade-up"  data-aos-delay="700" >Introducing lex</span>
                 <h1 data-aos="fade-up"  data-aos-delay="800" >Advanced Multi-AI Engines <br /> One Unified Platform</h1>
-                <p data-aos="fade-up"  data-aos-delay="900" >Unleash the Power of AI, Streamlined and Effortless</p>
+                <p data-aos="fade-up"  data-aos-delay="900" >Effortless AI Power, Streamlined, Compliant, Innovative</p>
               </div>
               <div className="hero_btn mt-3 mb-4" data-aos="fade-up"  data-aos-delay="1000">
                 <Link  href="https://beatai.io/login" className="hero_big_btn mb-2">Get Started for FREE</Link>
