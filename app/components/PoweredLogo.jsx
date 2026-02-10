@@ -9,6 +9,7 @@ import eleven from '../../public/beatai_assets/images/powered/eleven.svg';
 import gemini from '../../public/beatai_assets/images/powered/gemini.svg';
 import gmap from '../../public/beatai_assets/images/powered/google-map.svg';
 import grok from '../../public/beatai_assets/images/powered/grok.svg';
+import ibm from '../../public/beatai_assets/images/powered/ibm.svg';
 import lextravel from '../../public/beatai_assets/images/powered/lextravel.svg';
 import meetlex from '../../public/beatai_assets/images/powered/meetlex.svg';
 import nanoBanana from '../../public/beatai_assets/images/powered/nano-banana.svg';
@@ -100,6 +101,11 @@ const PoweredLogo = () => {
             <div className="col-12 col-sm mb-3">
               <div className="img_powered teds">
                 <Image src={beatbind} alt="beatbind" />
+              </div>
+            </div>
+            <div className="col-12 col-sm mb-3">
+              <div className="img_powered teds">
+                <Image src={ibm} alt="ibm" />
               </div>
             </div>
             <div className="col-12 col-sm mb-3">
