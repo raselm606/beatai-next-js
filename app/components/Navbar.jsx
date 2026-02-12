@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     <>
       <div className="badge_area">
-        <Image src={badge_beat} alt="" />
+        <Link href="#"><Image src={badge_beat} alt="" /></Link>
       </div>
         <div className={`navbar_area fixed-top ${navBg ? "scrolled" : ""}`}>
           <div className="container">
