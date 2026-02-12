@@ -8,6 +8,7 @@ body {
     word-wrap: break-word;
     font-family: 'Poppins', sans-serif;
     background: #1C074B; 
+    position: relative;
 
 }
  
@@ -895,4 +896,17 @@ background: -o-linear-gradient(127.11deg, #894aec -1.05%, #0e0a3e 184.22%);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+.badge_area {
+    z-index: 999999;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 12px 6px rgb(0 0 0 / 4%);
+    border: 1px solid #fff;
 }

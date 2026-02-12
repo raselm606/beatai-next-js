@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from "react";
+import badge_beat from "../../public/beatai_assets/images/beatverify_badge.png";
 import Logo from '../../public/beatai_assets/images/logo.svg';
 const Navbar = () => {
   const [navBg, setNavBg] = useState(false);
@@ -29,6 +30,9 @@ const Navbar = () => {
 
   return (
     <>
+      <div className="badge_area">
+        <Image src={badge_beat} alt="" />
+      </div>
         <div className={`navbar_area fixed-top ${navBg ? "scrolled" : ""}`}>
           <div className="container">
             <div className="row">
