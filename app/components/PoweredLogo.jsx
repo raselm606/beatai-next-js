@@ -19,6 +19,8 @@ import qwen from '../../public/beatai_assets/images/powered/qwen.svg';
 import stripe from '../../public/beatai_assets/images/powered/stripe.svg';
 import ticketmaster from '../../public/beatai_assets/images/powered/ticketmaster.svg';
 import veo from '../../public/beatai_assets/images/powered/veo3.svg';
+import sonnet from '../../public/beatai_assets/images/powered/sonnet.svg';
+import opus from '../../public/beatai_assets/images/powered/opus.svg';
 const PoweredLogo = () => {
   return (
     <>
@@ -70,6 +72,11 @@ const PoweredLogo = () => {
             </div>
             <div className="col-12 col-sm mb-3">
               <div className="img_powered">
+                <Image src={opus} alt="opus" />
+              </div>
+            </div>
+            <div className="col-12 col-sm mb-3">
+              <div className="img_powered">
                 <Image src={eleven} alt="eleven" />
               </div>
             </div>
@@ -101,6 +108,11 @@ const PoweredLogo = () => {
             <div className="col-12 col-sm mb-3">
               <div className="img_powered teds">
                 <Image src={beatbind} alt="beatbind" />
+              </div>
+            </div>
+            <div className="col-12 col-sm mb-3">
+              <div className="img_powered">
+                <Image src={sonnet} alt="sonnet" />
               </div>
             </div>
             <div className="col-12 col-sm mb-3">
