@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Slider from "react-slick";
+import slide05 from '../../public/beatai_assets/images/banner05.jpg';
 import slide1 from '../../public/beatai_assets/images/banner1_1.jpg';
 import slide2 from '../../public/beatai_assets/images/banner2_2.jpg';
 import slide3_3 from '../../public/beatai_assets/images/banner3.jpg';
@@ -74,7 +75,9 @@ const Hero = () => {
                 <div className="slick_s">
                   <Image src={slide4} alt="slide4" />
                 </div>
-                
+                <div className="slick_s">
+                  <Image src={slide05} alt="slide05" />
+                </div>
                 <div className="slick_s">
                   <Image src={slide5} alt="slide5" />
                 </div>
