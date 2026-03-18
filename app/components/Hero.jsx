@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Slider from "react-slick";
+import slide10 from '../../public/beatai_assets/images/banner10.jpg';
 import slide1 from '../../public/beatai_assets/images/banner1_1.jpg';
 import slide2 from '../../public/beatai_assets/images/banner2_2.jpg';
 import slide3_3 from '../../public/beatai_assets/images/banner3.3.jpg';
@@ -10,6 +11,8 @@ import slide4 from '../../public/beatai_assets/images/banner4.jpg';
 import slide5 from '../../public/beatai_assets/images/banner5.jpg';
 import slide6 from '../../public/beatai_assets/images/banner6.jpg';
 import slide7 from '../../public/beatai_assets/images/banner7.jpg';
+import slide8 from '../../public/beatai_assets/images/banner8.jpg';
+import slide9 from '../../public/beatai_assets/images/banner9.jpg';
 import support_icon from '../../public/beatai_assets/images/support-arrow.svg';
 import PoweredLogo from './PoweredLogo';
 const Hero = () => {
@@ -76,8 +79,18 @@ const Hero = () => {
                   <Image src={slide6} alt="slide6" />
                 </div>
                 <div className="slick_s">
+                  <Image src={slide8} alt="slide8" />
+                </div>
+                <div className="slick_s">
+                  <Image src={slide9} alt="slide9" />
+                </div>
+                <div className="slick_s">
+                  <Image src={slide10} alt="slide10" />
+                </div> 
+                <div className="slick_s">
                   <Image src={slide7} alt="slide7" />
                 </div>
+
                 </Slider>
               </div>
             </div>
